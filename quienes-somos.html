@@ -5,60 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quienes Somos</title>
     <link rel="stylesheet" href="style.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-..." crossorigin="anonymous">
 </head>
 <body>
+ 
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container justify-content-center"> <!-- justify-content-center -->
+        <div class="d-flex flex-lg-row flex-column align-items-center"> <!-- Flex adaptable -->
+            <a class="navbar-brand" href="#">
+                <img src="img/cheveres.svg" width="80" height="80" alt="Logo Viajes Cheveres" class="img-fluid me-lg-3">
+            </a>
+            
+            <button class="navbar-toggler order-lg-last" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quienes-somos.html">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contactanos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+ 
+ 
+ 
 
-  <header>
-    <h1>El sitio del blog de viajes cheveres</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="quienes-somos.html">Quiénes somos</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    
-  </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 <!--Quienes Somos-->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-
+ 
    <section class="acerca">
         <div class="container">
             <!-- Header de la sección -->
@@ -126,148 +111,98 @@
                             <span class="stat-number">100M+</span>
                             <span class="stat-label">Búsquedas/mes</span>
                         </div>
-                    </div>
-                    
-                    <!-- Indicadores de confianza -->
-                    <div class="trust-indicators">
-                        <div class="trust-grid">
-                            <div class="trust-item">
-                                <div class="trust-icon">
-                                    <i class="fas fa-shield-alt"></i>
-                                </div>
-                                <div class="trust-title">100% Seguro</div>
-                                <small>Reservas protegidas</small>
-                            </div>
-                            <div class="trust-item">
-                                <div class="trust-icon">
-                                    <i class="fas fa-medal"></i>
-                                </div>
-                                <div class="trust-title">Mejor Precio</div>
-                                <small>Garantía de precio</small>
-                            </div>
+                        <div class ="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Seguro</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">Mejor Precio</span>
+                            <span class="stat-label">Garantía de precio</span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
 <!--Pie de pagina-->
-<footer>
-    <div class="contenido_pie">
-        <div class="seccion_pie">
-            <h3>Centro de Atención</h3>
-            <ul class="contacto_pie">
-                <li>Centro Empresarial de Bogotá</li>
-                <li>+57 601 000 000</li>
-                <li>info@viajescheveres.com</li>
-            </ul>
+<footer class="bg-light text-dark py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <h3 class="text-primary">Centro de Atención</h3>
+                <ul class="list-unstyled">
+                    <li>Centro Empresarial de Bogotá</li>
+                    <li>+57 601 000 000</li>
+                    <li>info@viajescheveres.com</li>
+                </ul>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <h3 class="text-primary">Enlaces Rápidos</h3>
+                <ul class="list-unstyled">
+                    <li><a href="index.html" class="text-dark">Inicio</a></li>
+                    <li><a href="quienes-somos.html" class="text-dark">Quienes Somos</a></li>
+                    <li><a href="contacto.html" class="text-dark">Contáctanos</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-4 mb-3">
+                <h3 class="text-primary">Desarrollado por</h3>
+                <ul class="list-unstyled">
+                    <li>Paula Ramos</li>
+                    <li>Sergio Andrés Mesa</li>
+                    <li>Alejandro Palma</li>
+                    <li>Juan Daniel Gonzales</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="text-center mt-4">
+            <p class="mb-0">© 2023 Viajes Cheveres. Todos los derechos reservados.</p>
         </div>
     </div>
-
-    <div class="rapidos">
-        <h3>Enlaces Rápidos</h3>
-        <ul class="links">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="quienes-somos.html">Quienes Somos</a></li>
-            <li><a href="contacto.html">Contactanos</a></li>
-        </ul>
-    </div>
-      
-
-</body>
-</html>
-
-
-
-    <div class="copyright">
-        <p>Viajes Cheveres. Todos los derechos reservados</p>
-        <p>Desarrollado por:
-            <li>Paula Ramos</li>
-            <li>Sergio Andrés Mesa</li>
-            <li>Alejandro Palma</li>
-            <li>Juan Daniel Gonzales</li>
-        </p>
-    </div>
 </footer>
-
+ 
 </body>
 </html>
+ 
